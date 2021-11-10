@@ -1,17 +1,27 @@
 package controllers
 
-func GetTables()  {
-	
+import "github.com/gin-gonic/gin"
+
+func GetTables()  gin.HandlerFunc{
+	return func(c *gin.Context){
+
+	}
 }
 
-func GetTable()  {
+func GetTable() gin.HandlerFunc {
+	return func(c *gin.Context){
 
+	}
 }
 
-func CreateTable()  {
-	
+func CreateTable()  gin.HandlerFunc{
+	return func(c *gin.Context){
+
+	}
 }
 
-func UpdateTable(){
+func UpdateTable() gin.HandlerFunc{
+	return func(c *gin.Context){
 
+	}
 }

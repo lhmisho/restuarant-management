@@ -1,17 +1,27 @@
 package controllers
 
-func GetNotes()  {
-	
+import "github.com/gin-gonic/gin"
+
+func GetNotes() gin.HandlerFunc {
+	return func(c *gin.Context){
+
+	}
 }
 
-func GetNote()  {
+func GetNote() gin.HandlerFunc {
+	return func(c *gin.Context){
 
+	}
 }
 
-func CreateNote()  {
-	
+func CreateNote() gin.HandlerFunc{
+	return func(c *gin.Context){
+
+	}
 }
 
-func UpdateNote(){
+func UpdateNote() gin.HandlerFunc{
+	return func(c *gin.Context){
 
+	}
 }
