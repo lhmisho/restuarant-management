@@ -6,10 +6,10 @@ import (
 )
 
 type Order struct {
-	ID          primitive.ObjectID `bson:"_id"`
-	Order_id    string             `json:"order_id"`
-	Order_date  time.Time          `json:"order_date"`
-	Created_at  time.Time          `json:"created_at"`
-	Uupdated_at time.Time          `json:"updated_at"`
-	Table_id    string             `json:"table_id"`
+	ID         primitive.ObjectID `bson:"_id"`
+	OrderId    string    `json:"order_id"`
+	OrderDate   time.Time `json:"order_date"`
+	CreatedAt  time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+	TableId   string    `json:"table_id"`
 }
